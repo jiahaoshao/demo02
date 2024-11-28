@@ -1,0 +1,55 @@
+[
+  {
+    "name": "SysManga",
+    "title": "用户功能",
+    "icon": "el-icon-s-operation",
+    "path": "",
+    "children": [
+      {
+        "name": "SysUser",
+        "title": "个人信息管理",
+        "icon": "el-icon-s-custom",
+        "path": "/Users",
+        "children": []
+      },
+      {
+        "name": "SysRole",
+        "title": "兴趣小组",
+        "icon": "el-icon-s-custom",
+        "path": "/Article",
+        "children": []
+      },
+      {
+        "name": "SysMenu",
+        "title": "添加好友",
+        "icon": "el-icon-s-custom",
+        "path": "/search",
+        "children": [
+        ]
+      },
+      {
+        "name": "SysMenu",
+        "title": "好友列表",
+        "icon": "el-icon-s-custom",
+        "path": "/list",
+        "children": [
+        ]
+      }
+    ]
+  },
+  {
+    "name": "SysTools",
+    "title": "系统工具",
+    "icon": "el-icon-s-tools",
+    "path": "/aaa",
+    "children": [
+      {
+        "name": "SysDict",
+        "title": "数字字典",
+        "icon": "el-icon-s-order",
+        "path": "/sys",
+        "children": []
+      }
+    ]
+  }
+]

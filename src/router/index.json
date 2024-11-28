@@ -1,0 +1,71 @@
+[
+  {
+    "id": "600d4075e218daaf4ec77e52",
+    "menuType": "1",
+    "menuName": "系统管理",
+    "path": "/system",
+    "icon": "el-icon-setting",
+    "children": [
+      {
+        "id": "600d525e602f452aaeeffcd9",
+        "menuType": "1",
+        "menuName": "用户管理",
+        "path": "/system/user",
+        "children": [
+          {
+            "id": "6030ca8f93f0e159c8390f0c",
+            "menuType": "2",
+            "menuName": "新增",
+            "menuCode": "user-create"
+          },
+          {
+            "id": "603226d9257d15a8c54cf9f8",
+            "'menuType": "2",
+            "menuName": "批量删除",
+            "menuCode": "user-delete"
+          },
+          {
+            "id": "603253e0a821c6bb59084541",
+            "menuType": "2",
+            "menuName": "查看",
+            "menuCode": "user-query"
+          }
+        ]
+      },
+      {
+        "id": "601bc4f8a794e23c2e42efa9",
+        "menuType": "1",
+        "menuName": "菜单管理",
+        "path": "/system/menu",
+        "children": [
+          {
+            "id": "60325400a821c6bb59084543",
+            "menuType": "2",
+            "menuName": "查看",
+            "menuCode": "menu-query"
+          },
+          {
+            "id": "6032540fa821c6bb59084544",
+            "menuType": "2",
+            "menuName": "创建",
+            "menuCode": "menu-create"
+          }
+        ],
+        "action": [
+          {
+            "id": "60325400a821c6bb59084543",
+            "menuType": "2",
+            "menuName": "查看",
+            "menuCode": "menu-query"
+          },
+          {
+            "id": "60325400a821c6bb59084544",
+            "menuType": "2",
+            "menuName": "创建",
+            "menuCode": "menu-create"
+          }
+        ]
+      }
+    ]
+  }
+]
